@@ -6,8 +6,16 @@ import CreateBook from './pages/CreateBooks'
 import ShowBook from './pages/ShowBook'
 import EditBook from './pages/EditBook'
 import DeleteBook from './pages/DeleteBook'
-
+import axios
+ from 'axios'
 const App = () => {
+  axios.default.withCredentials = true
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    axios.post('https://book-mart-three.vercel.app/')
+    .then(result => console.log(result))
+    .catch(err => console.log(err))
+  }
   return (
     <Routes>
       <Route path='/' element={<Home/>}/>
