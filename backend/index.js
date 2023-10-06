@@ -14,7 +14,7 @@ app.use(express.urlencoded({extended: false}))
 // Option 1 -- Allow all origins with default of cors(*)
 app.use(cors())
 
-//Option 2 -- Allow  custom oorigins
+//Option 2 -- Allow  custom origins
 // app.use(
 //     cors({
 //         origin: ' http://localhost:3000',
