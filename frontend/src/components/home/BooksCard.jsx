@@ -1,10 +1,5 @@
-import { Link } from 'react-router-dom';
-import { PiBookOpenTextLight } from 'react-icons/pi';
-import { BiUserCircle } from 'react-icons/bi';
-import { AiOutlineEdit } from 'react-icons/ai';
-import { BsInfoCircle } from 'react-icons/bs';
-import { MdOutlineDelete } from 'react-icons/md';
 import BookSingleCard from './BookSingleCard';
+import PropTypes from 'prop-types'
 
 const BooksCard = ({ books }) => {
   return (
@@ -15,5 +10,7 @@ const BooksCard = ({ books }) => {
     </div>
   );
 };
-
+BooksCard.propTypes = {
+  books: PropTypes.node,
+};
 export default BooksCard;
