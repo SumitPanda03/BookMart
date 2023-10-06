@@ -10,11 +10,10 @@ const Home = () => {
   const [books, setBooks] = useState([]);
   const [loading, setLoading] = useState(false);
   const [showType, setShowType] = useState('table');
-
   useEffect(() => {
     setLoading(true);
     axios
-      .get('http://localhost:5555/books')
+      .get('https://book-mart-three.vercel.app/books')
       .then((response) => {
         setBooks(response.data);
         setLoading(false);

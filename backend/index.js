@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended: false}))
 //Option 2 -- Allow  custom origins
 app.use(
     cors({
-        origin: ' https://book-mart-fs.vercel.app',
+        origin: [' https://book-mart-fs.vercel.app'],
         methods: ['GET', 'POST', 'PUT', 'DELETE'],
         allowedHeaders: ['Content-Type'],
         credentials: 'true'
