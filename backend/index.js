@@ -12,17 +12,17 @@ app.use(express.json())
 app.use(express.urlencoded({extended: false}))
 
 // Option 1 -- Allow all origins with default of cors(*)
-// app.use(cors())
+app.use(cors())
 
 //Option 2 -- Allow  custom origins
-app.use(
-    cors({
-        origin: [' https://book-mart-fs.vercel.app'],
-        methods: ['GET', 'POST', 'PUT', 'DELETE'],
-        allowedHeaders: ['Content-Type'],
-        credentials: 'true'
-    })
-)
+// app.use(
+//     cors({
+//         origin: [' https://book-mart-fs.vercel.app'],
+//         methods: ['GET', 'POST', 'PUT', 'DELETE'],
+//         allowedHeaders: ['Content-Type'],
+//         credentials: 'true'
+//     })
+// )
 
 app.use('/books', require('../backend/routes/bookRoutes'))
 

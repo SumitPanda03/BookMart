@@ -7,11 +7,9 @@ import {BrowserRouter} from 'react-router-dom'
 import { SnackbarProvider } from 'notistack';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <StrictMode>
   <BrowserRouter>
     <SnackbarProvider>
       <App />
     </SnackbarProvider>
   </BrowserRouter>
-  </StrictMode>
 )
