@@ -1,7 +1,3 @@
-Deployed Site Link : https://frontend-b79i.onrender.com/
-
-
-<br/>
 <p align="center">
   <h3 align="center">BookMart</h3>
 
@@ -9,11 +5,13 @@ Deployed Site Link : https://frontend-b79i.onrender.com/
     A Website to enhance the admin experience of managing their book store
     <br/>
     <br/>
-    <a href="https://github.com/SumitPanda03/BookMart">View Demo</a>
+    <a href="https://frontend-b79i.onrender.com/">View Demo</a>
     .
     <a href="https://github.com/SumitPanda03/BookMart/issues">Report Bug</a>
     .
     <a href="https://github.com/SumitPanda03/BookMart/issues">Request Feature</a>
+    .
+    <a href="https://frontend-b79i.onrender.com/">Deployed Site</a>
   </p>
 </p>
 
@@ -46,7 +44,6 @@ BookMart is a responsive web application that serves as an online platform for m
 - Express.js
 - Docker
 
-* []()
 
 ## Getting Started
 
@@ -60,7 +57,8 @@ BookMart is a responsive web application that serves as an online platform for m
 1. Clone the repo
 
 ```sh
-git clone https://github.com/your_username_/Project-Name.git
+git clone https://github.com/SumitPanda03/BookMart.git
+cd BookMart
 ```
 
 2. Install NPM packages
@@ -68,7 +66,18 @@ git clone https://github.com/your_username_/Project-Name.git
 ```sh
 npm install
 ```
+3. Run the site
+### client
+```sh
+cd frontend
+npm run dev
+```
 
+### server
+```sh
+cd backend
+npm run dev
+```
 
 ## Contributing
 
@@ -76,11 +85,6 @@ Contributions are what make the open source community such an amazing place to b
 * If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/SumitPanda03/BookMart/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
 * Please make sure you check your spelling and grammar.
 * Create individual PR for each suggestion.
-* Please also read through the [Code Of Conduct](https://github.com/SumitPanda03/BookMart/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
-
-### Creating A Pull Request
-
-
 
 ## License
 
@@ -93,5 +97,4 @@ Distributed under the MIT License. See [LICENSE](https://github.com/SumitPanda03
 ## Acknowledgements
 
 * [Sumit Panda](https://github.com/SumitPanda03/)
-* []()
-* []()
+
