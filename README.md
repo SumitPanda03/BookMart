@@ -1,8 +1,5 @@
-# MERN-boilerplate
+Deployed Site Link : https://frontend-b79i.onrender.com/
 
-This is a boilerplate project using the following technologies:
-- [React](https://facebook.github.io/react/) and [React Router](https://reacttraining.com/react-router/) for the frontend
-- [Express](http://expressjs.com/) and [Mongoose](http://mongoosejs.com/) for the backend
 
 ## Requirements
 
@@ -28,3 +25,8 @@ Development (Webpack dev server) mode:
 ```shell
 npm run dev
 ```
+
+##Tech Stack :
+
+- [React](https://facebook.github.io/react/) and [React Router](https://reacttraining.com/react-router/) for the frontend
+- [Express](http://expressjs.com/) and [Mongoose](http://mongoosejs.com/) for the backend
