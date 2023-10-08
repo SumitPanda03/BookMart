@@ -26,7 +26,7 @@ Development (Webpack dev server) mode:
 npm run dev
 ```
 
-##Tech Stack :
+Tech Stack :
 
 - [React](https://facebook.github.io/react/) and [React Router](https://reacttraining.com/react-router/) for the frontend
 - [Express](http://expressjs.com/) and [Mongoose](http://mongoosejs.com/) for the backend
