@@ -13,6 +13,7 @@ const ShowBook = () => {
     setLoading(true);
     axios
       .get(`https://bookmart-bvuu.onrender.com/books/${id}`)
+      
       .then((response) => {
         setBook(response.data);
         setLoading(false);
